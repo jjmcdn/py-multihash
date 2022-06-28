@@ -18,8 +18,6 @@ requirements = [
     'base58>=1.0.2,<3.0',
 ]
 
-setup_requirements = ['pytest-runner', ]
-
 test_requirements = [
     'pytest',
     'pytest-cov',
@@ -50,7 +48,6 @@ setup(
     include_package_data=True,
     keywords='multihash',
     packages=find_packages(include=['multihash']),
-    setup_requires=setup_requirements,
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/multiformats/multihash',
